@@ -1,0 +1,170 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url(https://i.ibb.co/Y3JzZTW/bg.jpg) ;
+  background-position: center top, left;
+	background-repeat: no-repeat, no-repeat;
+  background-size: 100%, 100%;
+}
+
+#headline {
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 5px solid #FF6200;
+position: absolute;
+top: 100px;
+right: -50px;
+z-index: 100;
+padding: 25px;
+  
+}
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+}
+#navBar h1 {
+  width: 25%;
+  font-weight: 500;
+}
+#navigation {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+}
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+#home1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+#portfoliotext {
+  display: flex;
+  margin-left: 1220px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+#leftquote {
+  display: flex;
+  margin-left: 220px;
+  margin-top: 800px;
+  padding-top: 0px;
+}
+#rightquote {
+  display: flex;
+  margin-left: 1000px;
+  margin-top: 800px;
+  padding-top: 0px;
+}
+#lefttext {
+  text-align: left;
+margin-bottom: -1180px;
+}
+#righttext {
+  padding-right: 1200px;
+  left: 100px;
+}
+#portfolio {
+  margin-left: 1100px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.container {
+  padding-right: 50px;
+}
+.highlight {
+  color: white;
+  font-weight: 500;
+  border-bottom: 2px solid #755d33;
+}
+
+/* Typography CSS */
+/* h1 is a multi-diciplinary designer*/
+
+h1 {
+  font-size: 40px;
+  margin: 0px 0px;
+  font-weight: 500;
+  color: #707070;
+}
+h2 {
+  font-size: 30px;
+  margin: 0px 0px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+/* h3 is karen kosasi */
+
+h3 {
+  font-size: 150px;
+  font-weight: 100;
+  margin: 0px 0px;
+  color: #232323;
+  margin-bottom: -50px;
+}
+
+h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+/* h5 is extra text bottom*/
+
+h5 {
+  color: #707070;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+/* h6 is quotes*/
+
+h6 {
+  color: #755d33;
+  font-weight: 400;
+  font-size: 300px;
+}
+
+#headline p {
+  max-width: 350px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #9A9A9A;
+}
+
+p {
+  color: #9A9A9A;
+}
+.row .lefttext {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #707070;
+  padding-left: 40%;
+  padding-top: 85%;
+}
+.row .righttext {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #707070;
+  padding-top: 85%;
+  padding-right: 5%;
+  padding-left: 10%;
+}
